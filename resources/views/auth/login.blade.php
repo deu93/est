@@ -23,12 +23,13 @@
       </div>
         @enderror
       <hr>
-  
+      <input type="checkbox" name="remember" id="remember">
+      <label for="remember">Запомнить меня</label>
       <button type="submit" class="registerbtn">Войти</button>
     </div>
   
     <div class="container signin">
-      <p>Уже есть аккаунт? <a href="#">Войти</a>.</p>
+      <p>У вас ещё нет аккаунта? <a href="/register">Зарегистрироваться</a>.</p>
     </div>
   </form>
 @endsection
